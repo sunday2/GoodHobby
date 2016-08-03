@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+显示hobby的详细信息
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name1"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="70dp"
+        android:textColorLink="#c91b1b"
+        android:textColor="#172f78"
+        android:text="fdsf"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建时间"
+            android:layout_margin="10dp"
+            android:textColor="#7f17a1"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/create_date1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#cc82e3"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="描述"
+            android:layout_margin="10dp"
+            android:textColor="#7f17a1"
+            android:textSize="40dp"/>
+        <TextView
+            android:id="@+id/hobby_description1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#cc82e3"
+            android:maxLines="3"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已坚持天数"
+            android:layout_margin="10dp"
+            android:textColor="#7f17a1"
+            android:textSize="40dp"/>
+        <TextView
+            android:id="@+id/persistantdays1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#cc82e3"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所处等级"
+        android:layout_margin="10dp"
+        android:textColor="#7f17a1"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/grade1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#cc82e3"
+        android:textSize="40dp"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+<Button
+    android:id="@+id/button_sign"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="45dp"
+    android:layout_gravity="center_horizontal"
+    android:text="签到"
+    android:textColor="#3b97a1" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="删除"
+        android:textColor="#3b97a1" />
+</LinearLayout>
+
+</LinearLayout>

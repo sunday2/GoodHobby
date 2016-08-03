@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunday.goodhobby">
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".goodhobby.activity.MainActivity" />
+        <activity android:name=".goodhobby.activity.AddHobbyActivity" />
+        <activity android:name=".goodhobby.activity.WelcomeInitDBActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".goodhobby.activity.ShowHobbyActivity" />
+        <activity android:name=".goodhobby.activity.HobbyInfoActivity" />
+        <activity android:name=".goodhobby.activity.ShowHobbyActivity2" />
+        <activity android:name=".goodhobby.activity.BaseActivity" />
+        <activity android:name=".goodhobby.activity.ShowHobbyActivity3" />
+
+        <service
+            android:name=".goodhobby.service.LongRunningService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <receiver android:name=".goodhobby.receiver.AlarmReceiver"/>
+        <receiver android:name=".goodhobby.receiver.BootCompletedReceiver"/>
+
+    </application>
+
+</manifest>

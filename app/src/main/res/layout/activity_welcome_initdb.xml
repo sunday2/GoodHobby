@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--APP欢迎页面 -->
+<!--
+    主要内容：
+    1.显示心理学巨匠威廉詹姆斯对习惯的诠释
+    2.进入app按钮
+      对应活动动作：
+      点击按钮，进入主活动界面
+
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc0a884"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:text="心理学巨匠威廉 詹姆斯对习惯的经典诠释"
+        android:id="@+id/welcome_title"
+        android:textColor="#2c51a1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:text="1.种下一种行动，收获一种行为;"
+        android:id="@+id/hobby_principal1"
+        android:gravity="center"
+        android:textColor="#0a0a0a" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:text="2.种下一种行为，收获一种习惯;"
+        android:id="@+id/hobby_principal2"
+        android:gravity="center"
+        android:textColor="#141212" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:text="3.种下一种习惯，收获一种性格;"
+        android:id="@+id/hobby_principal3"
+        android:gravity="center"
+        android:textColor="#141212" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:text="4.种下一种性格，收获一种命运;"
+        android:id="@+id/hobby_principal4"
+        android:gravity="center"
+        android:textColor="#141212" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入app"
+        android:id="@+id/button_click2main"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:textColor="#25bca6" />
+</LinearLayout>
